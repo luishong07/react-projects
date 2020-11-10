@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import data from './data';
 import List from './List';
-function App() {
+function App() {//this is a change to test commits
   const [people,setPeople] = useState(data)
   return <main>
     <section className="container">
